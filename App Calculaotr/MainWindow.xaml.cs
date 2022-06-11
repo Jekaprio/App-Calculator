@@ -16,24 +16,30 @@ using System.Windows.Media.Animation;
 
 namespace App_Calculaotr
 {
-    /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
-    /// </summary>
+  
     public partial class MainWindow : Window
     {
         public MainWindow()
         {
             InitializeComponent();
-            MessageBox.Show("Hello");
+            /*DoubleAnimation Anim = new DoubleAnimation();
+            Anim.From = 100;
+            Anim.To = 150;
+            Anim.Duration = TimeSpan.FromSeconds(3.5);
+            But1.BeginAnimation(Button.WidthProperty, Anim);
+            But3.BeginAnimation(Button.WidthProperty, Anim);
+            But4.BeginAnimation(Button.WidthProperty, Anim);
+            Button2.BeginAnimation(Button.WidthProperty, Anim);
 
-            DoubleAnimation Anim = new DoubleAnimation();
-            Anim.From = 0;
-            Anim.To = 450;
-            Anim.Duration = TimeSpan.FromSeconds(6);
+            DoubleAnimation Anims = new DoubleAnimation();
+            Anims.From = 100;
+            Anims.To = 150;
+            Anims.Duration = TimeSpan.FromSeconds(2);
+            But4.BeginAnimation(Button.WidthProperty, Anims);*/
 
-           
+
         }
 
-   
+    
     }
 }

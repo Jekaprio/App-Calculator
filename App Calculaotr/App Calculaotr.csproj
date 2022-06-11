@@ -97,5 +97,8 @@
   <ItemGroup>
     <Resource Include="business-color_math_icon-icons.com_53449.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="1497619669-androidmobile-phone_85137.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
