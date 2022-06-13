@@ -58,9 +58,7 @@
         <Label Content="Label" HorizontalAlignment="Left" Margin="652,66,0,0" VerticalAlignment="Top"/>
         <Label Content="Label" HorizontalAlignment="Left" Margin="495,97,0,0" VerticalAlignment="Top"/>
         <Border BorderBrush="Transparent" BorderThickness="1" RenderTransformOrigin="3.15,0.5" Margin="46,10,-840,11">
-            <Grid x:Name="NEW_GRID">
-                <Label Content="Your phone:" HorizontalAlignment="Left" Margin="496,-2,0,0" VerticalAlignment="Top" RenderTransformOrigin="6.262,-1.103"/>
-                <Label Content="Total Ram:" HorizontalAlignment="Left" Margin="494,48,0,0" VerticalAlignment="Top" RenderTransformOrigin="2.936,0.552"/>
+            <Grid x:Name="NEW_GRID" Margin="23,0,0,0">
             </Grid>
         </Border>
 
